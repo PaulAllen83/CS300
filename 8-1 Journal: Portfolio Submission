@@ -1,0 +1,32 @@
+Jonathan Skop
+SNHU
+Class CS-300
+8-1 Journal: Portfolio Submission
+
+
+Project One: analysis of the run-time and memory for the data structures.
+
+Insertion: Fast (O(1)) on average but slows down (O(n)) with too many collisions.
+Search: Quick (O(1)) on average but degrades (O(n)) with poor hash distribution.
+Traversal: Takes O(n) time to go through all entries.
+Memory: Needs memory for each course (O(n)) and extra buckets for collision handling (O(m)).
+
+
+
+The project's main goal was to store, retrieve, and display course information efficiently, including prerequisites, using a data structure that allowed for quick lookups and scalability. The tricky part was ensuring the data was organized, easy to access, and validated so users could easily search for specific courses and understand their relationships. 
+
+I started by looking at what the project needed to figure out the best data structure. I decided on a hash table because it has efficient average-case time complexity for inserting and retrieving data (O(1)), which made it perfect for quickly accessing course information by their course numbers. Understanding data structures is important because picking the wrong one could slow things down as the dataset grows. 
+
+One roadblock I hit was dealing with hash collisions. At first, some keys ended up in the same bucket, making retrieval difficult. I solved this by using a chaining method with linked lists, ensuring that all the items in a bucket were accessible. 
+
+Working on this project taught me how crucial it is to plan and choose the proper data structure based on the project's needs. I always think about data first when designing software, ensuring that the data structure matches the program's goals. I also became more aware of scalability and possible bottlenecks during development. 
+
+This project highlighted the importance of writing clean, well-documented code. I made it a point to ensure each function had a single responsibility, making the code easier to maintain and update. I also focused on using consistent naming conventions and meaningful comments to enhance readability. Now, I prioritize making my code adaptable for future changes.  
+
+In short, my key takeaways from this experience are: 
+- The problem was managing and retrieving course data efficiently. 
+- I chose a hash table for its fast lookups and scalability. 
+- I tackled challenges like hash collisions and validation errors. 
+- I learned to plan with data structures in mind, emphasizing scalability. 
+- I improved my coding practices by focusing on modularity, clarity, and adaptability. 
+These reflections showcase thoughtful problem-solving, a solid grasp of data structures, and growth in software development skills.
